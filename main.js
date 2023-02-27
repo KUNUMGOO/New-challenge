@@ -1,4 +1,5 @@
 const API = "http://localhost:8000/todo";
+console.log("Hello, Kanikei!");
 // GET - ПОЛУЧЕНИЕ ДАННЫХ
 fetch(API)
   .then((res) => res.json())
